@@ -8,14 +8,17 @@ export default defineNuxtConfig({
         { src: '~/plugins/checkUser.js', mode: 'client' },
     ],
     build: {
-        transpile: ['@heroicons/vue','@headlessui/vue'],
+        transpile: ['@heroicons/vue','@headlessui/vue','@vue-leaflet/vue-leaflet'],
+        postcss: {
+            postcssOptions: require('./postcss.config.js'),
+        },
     },
     css: [
         '@/assets/main.css',
-       'leaflet/dist/leaflet.css',
+        'leaflet/dist/leaflet.css',
     ],
     head : {
-        title : "تولیدی مینو ( خیریه )",
+        title : "تولیدی مینو ",
         Link:
             {rel:'icon',type:'image' , href: '/favicon.ico'}
     }

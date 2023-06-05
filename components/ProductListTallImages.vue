@@ -1,4 +1,4 @@
-<!--<template>-->
+<template>
 <!--  <div class="bg-white">-->
 <!--    <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">-->
 <!--      <div class="sm:flex sm:items-baseline sm:justify-between">-->
@@ -26,42 +26,42 @@
 <!--      </div>-->
 <!--    </div>-->
 <!--  </div>-->
-<!--</template>-->
+</template>
 
-<!--<script>-->
-<!--const products = [-->
-<!--  {-->
-<!--    id: 1,-->
-<!--    name: 'Black Basic Tee',-->
-<!--    price: '$32',-->
-<!--    href: '#',-->
-<!--    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-01.jpg',-->
-<!--    imageAlt: "Model wearing women's black cotton crewneck tee.",-->
-<!--  },-->
-<!--  {-->
-<!--    id: 1,-->
-<!--    name: 'Black Basic Tee',-->
-<!--    price: '$32',-->
-<!--    href: '#',-->
-<!--    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-01.jpg',-->
-<!--    imageAlt: "Model wearing women's black cotton crewneck tee.",-->
-<!--  },-->
-<!--  {-->
-<!--    id: 1,-->
-<!--    name: 'Black Basic Tee',-->
-<!--    price: '$32',-->
-<!--    href: '#',-->
-<!--    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-01.jpg',-->
-<!--    imageAlt: "Model wearing women's black cotton crewneck tee.",-->
-<!--  },-->
-<!--  // More products...-->
-<!--]-->
+<script>
+const products = [
+  {
+    id: 1,
+    name: 'Black Basic Tee',
+    price: '$32',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-01.jpg',
+    imageAlt: "Model wearing women's black cotton crewneck tee.",
+  },
+  {
+    id: 1,
+    name: 'Black Basic Tee',
+    price: '$32',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-01.jpg',
+    imageAlt: "Model wearing women's black cotton crewneck tee.",
+  },
+  {
+    id: 1,
+    name: 'Black Basic Tee',
+    price: '$32',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-01.jpg',
+    imageAlt: "Model wearing women's black cotton crewneck tee.",
+  },
+  // More products...
+]
 
-<!--export default {-->
-<!--  setup() {-->
-<!--    return {-->
-<!--      products,-->
-<!--    }-->
-<!--  },-->
-<!--}-->
-<!--</script>-->
+export default {
+  setup() {
+    return {
+      products,
+    }
+  },
+}
+</script>
