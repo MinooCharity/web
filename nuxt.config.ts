@@ -8,10 +8,7 @@ export default defineNuxtConfig({
         { src: '~/plugins/checkUser.js', mode: 'client' },
     ],
     build: {
-        transpile: ['@heroicons/vue','@headlessui/vue','@vue-leaflet/vue-leaflet'],
-        postcss: {
-            postcssOptions: require('./postcss.config.js'),
-        },
+        transpile: ['@heroicons/vue','@headlessui/vue'],
     },
     css: [
         '@/assets/main.css',
