@@ -60,8 +60,8 @@
 
 <script>
 import {navigateTo, useRouter} from "nuxt/app";
-import TheWelcome from "../components/TheWelcome";
-import TheFooter from "../components/TheFooter";
+import TheWelcome from "../components/TheWelcome.vue";
+import TheFooter from "../components/TheFooter.vue";
 
 export default {
   components:{TheFooter, TheWelcome},

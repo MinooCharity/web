@@ -17,7 +17,7 @@ import ProductListTallImages from "../components/ProductListTallImages";
 import CategoriesWithImageBackgrounds from "../components/CategoriesWithImageBackgrounds";
 import CategoriesWithScrollingCards from "../components/CategoriesWithScrollingCards";
 import CategoriesWithSplitImages from "../components/CategoriesWithSplitImages";
-import CommerceUs from "../components/CommerceUs";
+import CommerceUs from "../components/CommerceUs.vue";
 import CtaPart from "../components/CtaPart";
 import TheSimpleCtaSection from "../components/TheSimpleCtaSection";
 export default {

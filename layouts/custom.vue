@@ -23,7 +23,7 @@
 
 </template>
 <script>
-import TheBanner from "../components/TheBanner";
+import TheBanner from "../components/TheBanner.vue";
 import TheFooter from "../components/TheFooter";
 import TheNewHeader from "../components/TheNewHeader";
 export default {
