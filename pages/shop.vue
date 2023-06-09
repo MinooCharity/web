@@ -6,7 +6,7 @@
       </div>
 <!--      //next version-->
 <!--      <CategoryFilter/>-->
-<!--      <ProductList/>-->
+      <ProductList/>
       <hr class="bg-white py-1 ">
       <CommerceUs/>
     </NuxtLayout>
